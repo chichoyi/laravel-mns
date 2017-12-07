@@ -2,7 +2,7 @@
 
 namespace Chichoyi\LaravelMNS\Connectors;
 
-use Aliyun\MNS\Client;
+use AliyunMNS\Client;
 use Illuminate\Queue\Connectors\ConnectorInterface;
 use Chichoyi\LaravelMNS\Adaptors\MNSAdapter;
 use Chichoyi\LaravelMNS\MNSQueue;
