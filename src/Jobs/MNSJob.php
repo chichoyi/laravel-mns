@@ -2,7 +2,7 @@
 
 namespace Chichoyi\LaravelMNS\Jobs;
 
-use AliyunMNS\Responses\ReceiveMessageResponse;
+use Aliyun\MNS\Responses\ReceiveMessageResponse;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Queue\Job as JobContract;
 use Illuminate\Queue\Jobs\Job;

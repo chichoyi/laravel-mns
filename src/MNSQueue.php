@@ -2,8 +2,8 @@
 
 namespace Chichoyi\LaravelMNS;
 
-use AliyunMNS\Exception\MessageNotExistException;
-use AliyunMNS\Requests\SendMessageRequest;
+use Aliyun\MNS\Exception\MessageNotExistException;
+use Aliyun\MNS\Requests\SendMessageRequest;
 use Exception;
 use Illuminate\Contracts\Queue\Queue as QueueContract;
 use Illuminate\Queue\Queue;

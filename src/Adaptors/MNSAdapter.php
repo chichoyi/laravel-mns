@@ -2,26 +2,26 @@
 
 namespace Chichoyi\LaravelMNS\Adaptors;
 
-use AliyunMNS\AsyncCallback;
-use AliyunMNS\Client;
-use AliyunMNS\Model\QueueAttributes;
-use AliyunMNS\Queue;
-use AliyunMNS\Requests\BatchDeleteMessageRequest;
-use AliyunMNS\Requests\BatchPeekMessageRequest;
-use AliyunMNS\Requests\BatchReceiveMessageRequest;
-use AliyunMNS\Requests\BatchSendMessageRequest;
-use AliyunMNS\Requests\SendMessageRequest;
-use AliyunMNS\Responses\BatchDeleteMessageResponse;
-use AliyunMNS\Responses\BatchPeekMessageResponse;
-use AliyunMNS\Responses\BatchReceiveMessageResponse;
-use AliyunMNS\Responses\BatchSendMessageResponse;
-use AliyunMNS\Responses\ChangeMessageVisibilityResponse;
-use AliyunMNS\Responses\GetQueueAttributeResponse;
-use AliyunMNS\Responses\MnsPromise;
-use AliyunMNS\Responses\PeekMessageResponse;
-use AliyunMNS\Responses\ReceiveMessageResponse;
-use AliyunMNS\Responses\SendMessageResponse;
-use AliyunMNS\Responses\SetQueueAttributeResponse;
+use Aliyun\MNS\AsyncCallback;
+use Aliyun\MNS\Client;
+use Aliyun\MNS\Model\QueueAttributes;
+use Aliyun\MNS\Queue;
+use Aliyun\MNS\Requests\BatchDeleteMessageRequest;
+use Aliyun\MNS\Requests\BatchPeekMessageRequest;
+use Aliyun\MNS\Requests\BatchReceiveMessageRequest;
+use Aliyun\MNS\Requests\BatchSendMessageRequest;
+use Aliyun\MNS\Requests\SendMessageRequest;
+use Aliyun\MNS\Responses\BatchDeleteMessageResponse;
+use Aliyun\MNS\Responses\BatchPeekMessageResponse;
+use Aliyun\MNS\Responses\BatchReceiveMessageResponse;
+use Aliyun\MNS\Responses\BatchSendMessageResponse;
+use Aliyun\MNS\Responses\ChangeMessageVisibilityResponse;
+use Aliyun\MNS\Responses\GetQueueAttributeResponse;
+use Aliyun\MNS\Responses\MnsPromise;
+use Aliyun\MNS\Responses\PeekMessageResponse;
+use Aliyun\MNS\Responses\ReceiveMessageResponse;
+use Aliyun\MNS\Responses\SendMessageResponse;
+use Aliyun\MNS\Responses\SetQueueAttributeResponse;
 
 /**
  * Class MNSAdapter

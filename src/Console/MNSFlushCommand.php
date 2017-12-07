@@ -2,8 +2,8 @@
 
 namespace Chichoyi\LaravelMNS\Console;
 
-use AliyunMNS\Client;
-use AliyunMNS\Requests\BatchReceiveMessageRequest;
+use Aliyun\MNS\Client;
+use Aliyun\MNS\Requests\BatchReceiveMessageRequest;
 use Exception;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
