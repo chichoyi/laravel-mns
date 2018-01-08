@@ -32,5 +32,12 @@
         "psr-4": {
             "Chichoyi\\LaravelMNS\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chichoyi\\LaravelMNS\\LaravelMNSServiceProvider"
+            ]
+        }
     }
 }

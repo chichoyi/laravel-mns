@@ -1,10 +1,14 @@
 # laravel-mns
+
 阿里云消息服务（即MNS PHP SDK封装成laravel适配的mns）
 
-##install
+
+## install
+
     composer require chichoyi/laravel-mns
     
-##config
+## config
+
 Add following service providers into your providers array in config/app.php
    
     Chichoyi\LaravelMNS\LaravelMNSServiceProvider::class
@@ -28,6 +32,13 @@ Edit your .env file
     QUEUE_MNS_SECRET_KEY=your_secret_key
     QUEUE_MNS_ENDPOINT=http://12345678910.mns.cn-hangzhou.aliyuncs.com/
     
-###Desciption
+
+### Desciption
 
 the aliyun-mns-sdk version is 1.3.5 (latest version)
+
+### contact with me
+
+if you have any question, you can send email to me 
+
+email:cys843755799@163.com
